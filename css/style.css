@@ -1,0 +1,78 @@
+
+body{
+    background-color: gray;
+    color: black
+}
+
+h1, h2{
+    color: black;
+    text-align: center;
+}
+
+p{
+    text-align: justify;
+    color:black;
+}
+
+nav li{
+    text-align: center;
+    color: black;
+    margin-left: 20px;
+    display: inline;
+    font-weight: bold;
+    border: 2px solid black;
+    padding: 5px;
+}
+
+nav{
+    float: right;
+    margin-top: auto;
+}
+
+header{
+    background-color: gray;
+}
+
+.textoprincipal{
+    text-align: justify;
+    color: black;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.sinopse{
+    text-align: center;
+    color: black;
+}
+
+.capituloum{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px;
+}
+
+.linklivros{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 20px
+}
+
+main{
+    margin: auto 10%;
+    background-color: gray;
+}
+
+.primeiradivisoria{
+    color: black;
+    background-color: black;
+    
+}

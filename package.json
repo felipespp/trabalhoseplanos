@@ -1,0 +1,19 @@
+{
+  "name": "aula",
+  "version": "1.0.0",
+  "description": "aula com o pedro ts 08/07",
+  "main": "index.js",
+  "scripts": {
+    "rodar": "npx ts-node src/gasolina.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.1",
+    "@types/prompt-sync": "^4.2.0"
+  },
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
