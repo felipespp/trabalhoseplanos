@@ -8,12 +8,39 @@
     <script>
 
         function somar() {
-            const n1 = document.getElementById('primeiro').value
-            const n2 = document.getElementById('segundo').value
+            const n1 = document.getElementById('primeiroSoma').value
+            const n2 = document.getElementById('segundoSoma').value
 
             const soma = Number(n1) + Number(n2)
 
             document.getElementById('resultado').innerHTML = "A soma dos valores digitados é " + soma
+        }
+
+        function subtrair() {
+            const n3 = document.getElementById('primeiroSubtracao').value
+            const n4 = document.getElementById('segundoSubtracao').value
+
+            const subtracao = Number(n3) - Number(n4)
+
+            document.getElementById('resultadoSubtracao').innerHTML = "A subtração dos valores digitados é " + subtracao
+        }
+
+        function multiplicar(){
+            const n5 = document.getElementById('primeiroMultiplicacao').value
+            const n6 = document.getElementById('segundoMultiplicacao').value
+
+            const multiplicacao = Number(n5) * Number(n6)
+
+            document.getElementById('resultadoMultiplicacao').innerHTML = "A multiplicação dos valores digitados é " + multiplicacao
+        }
+
+        function dividir(){
+            const n7 = document.getElementById('primeiroDivisao').value
+            const n8 = document.getElementById('segundoDivisao').value
+
+            const divisao = Number(n7) / Number(n8)
+
+            document.getElementById('resultadoDivisao').innerHTML = "A divisão dos valores digitados é " + divisao
         }
 
     </script>
@@ -24,8 +51,8 @@
 
     <form action="">
 
-        N1: <input type="text" id="primeiro" /> <br>
-        N2: <input type="text" id="segundo" /> <br>
+        N1: <input type="text" id="primeiroSoma" /> <br>
+        N2: <input type="text" id="segundoSoma" /> <br>
         <br>
         <input type="button" value="Somar os números!" onclick="somar()">
 
@@ -33,7 +60,46 @@
 
     </form>
 
+    <br>
 
+    <form action="">
+
+        N3: <input type="text" id="primeiroSubtracao" /> <br>
+        N4: <input type="text" id="segundoSubtracao" /> <br>
+        <br>
+        <input type="button" value="Subtrair os números!" onclick="subtrair()">
+
+        <h1 id="resultadoSubtracao">A subtração dos valores digitados é</h1>
+
+    </form>
+
+    <br>
+
+    <form action="">
+
+        N5: <input type="text" id="primeiroMultiplicacao" /> <br>
+        N6: <input type="text" id="segundoMultiplicacao" /> <br>
+        <br>
+        <input type="button" value="Multiplicar os números!" onclick="multiplicar()">
+
+        <h1 id="resultadoMultiplicacao">A multiplicação dos valores digitados é</h1>
+
+
+    </form>
+
+    <br>
+
+    <form action="">
+
+        N7: <input type="text" id="primeiroDivisao" /> <br>
+        N8: <input type="text" id="segundoDivisao" /> <br>
+        <br>
+        <input type="button" value="Dividir os números!" onclick="dividir()">
+
+        <h1 id="resultadoDivisao">A divisão dos valores digitados é</h1>
+
+
+    </form>
 
 
 </body>
