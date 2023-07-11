@@ -1,5 +1,3 @@
-//7 - Receber comprimento, largura e altura de um paralelepipedo, calcular e mostrar seu volume
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();

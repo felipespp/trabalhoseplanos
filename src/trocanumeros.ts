@@ -1,6 +1,3 @@
-// 6 - Receba os valores em X e Y, troque seus valores e mostre na tela
-// Bonus pra quem usar menos variaveis
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();

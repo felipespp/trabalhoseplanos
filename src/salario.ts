@@ -1,5 +1,3 @@
-//2 - Ler salário de um funcionário, mostrar o salário com aumento de 15%
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();

@@ -1,5 +1,3 @@
-//3 - Receber base e altura do triângulo, calcular e mostrar a área
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();
@@ -15,9 +13,6 @@ let valor2: number = 0
 while (typeof valor2 !== 'number' || isNaN(valor2)) {
     valor2 = Number(promptSetup('Digite a altura do triângulo:'));
 }
-
-const base: number = valor1;
-const altura: number = valor2;
 
 const area: number = valor1 * valor2 / 2
 

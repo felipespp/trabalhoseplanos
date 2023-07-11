@@ -1,6 +1,3 @@
-//11 - Calcular a quantidade de litros gastos em uma viagem, sabendo que o veiculo faz 12km/litro. Receber o tempo de percurso
-//e a velocidade média
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();
