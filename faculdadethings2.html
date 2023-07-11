@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Estudando!</title>
+    <meta charset="UTF-8" />
+
+    <script>
+
+        function somar() {
+            const n1 = document.getElementById('primeiro').value
+            const n2 = document.getElementById('segundo').value
+
+            const soma = Number(n1) + Number(n2)
+
+            document.getElementById('resultado').innerHTML = "A soma dos valores digitados é " + soma
+        }
+
+    </script>
+
+</head>
+
+<body>
+
+    <form action="">
+
+        N1: <input type="text" id="primeiro" /> <br>
+        N2: <input type="text" id="segundo" /> <br>
+        <br>
+        <input type="button" value="Somar os números!" onclick="somar()">
+
+        <h1 id="resultado">A soma dos valores digitados é</h1>
+
+    </form>
+
+
+
+
+</body>
+
+</html>

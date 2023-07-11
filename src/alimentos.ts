@@ -1,6 +1,3 @@
-//10 - Receber a quantidade de alimentos em quilos, calcular e mostrar quantos dias durará esse alimento sabendo que
-//a pessoa consome 50 gramas ao dia
-
 import prompt from 'prompt-sync'
 
 const promptSetup = prompt();
@@ -13,11 +10,11 @@ while (typeof kg_comida !== 'number' || isNaN(kg_comida)) {
 
 let gramas_comida: number = 1000 * kg_comida;
 
-let dias: number = 0
+let dias: number = 0;
 
 while (gramas_comida > 0) {
-    gramas_comida = gramas_comida - 50;
-    dias = dias + 1;
+    gramas_comida -= 50;
+    dias++;
 }
 
 console.log(`${kg_comida}kg de comida durarão ${Math.round(dias)} dias.`)
