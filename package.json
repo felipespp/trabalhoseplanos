@@ -4,7 +4,7 @@
   "description": "aula com o pedro ts 08/07",
   "main": "index.js",
   "scripts": {
-    "rodar": "npx ts-node src/fahrenheit.ts",
+    "rodar": "npx ts-node src/primeira_lista/fahrenheit.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
