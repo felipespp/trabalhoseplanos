@@ -1,4 +1,17 @@
-/*
-17 - Receber 3 valores que serão inseridos obrigatoriamente em ordem crescente e um 4º valor que
-não necessariamente precisa ser em ordem. Mostrar os 4 números em ordem crescente
-*/
+import prompt from 'prompt-sync'
+
+const promptSetup = prompt();
+
+const valores: number[] = [];
+
+for (let index = 1; index <= 4; index++) {
+    let numerosOrdenados: any = Number(promptSetup('Digite aqui os valores desejados:'));
+    while (isNaN(numerosOrdenados)){
+        numerosOrdenados = Number(promptSetup('Digite aqui os valores desejados:'));
+    }
+    valores.push(numerosOrdenados);  
+}
+
+const numerosEmOrdem = valores.sort()
+
+console.log(`Veja os números inseridos em ordem: ${numerosEmOrdem}.`);
