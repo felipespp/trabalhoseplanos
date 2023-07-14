@@ -4,7 +4,7 @@
   "description": "aula com o pedro ts 08/07",
   "main": "index.js",
   "scripts": {
-    "rodar": "npx ts-node src/segunda_lista/nascimentodois.ts",
+    "rodar": "npx ts-node src/terceira_lista/fatorialnumeros.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
