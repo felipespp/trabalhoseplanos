@@ -106,8 +106,8 @@
 
 #print(nome_zoado)
 
-#print("Olá, me chamo Matheus Teles!")
-#print("Você deve estar se perguntando... o que você quer?")
-#print("Bem, seria de alguma maneira surpreendente você saber que eu quero três shemas?")
-#print("Um pouco demais, não acha? Bem, eu não acho. Não acho.")
-#print("Gostaria da Heloísa, da Katarina e do Glimmer, por favor.")
+#print("!")
+#print("")
+#print("")
+#print(".")
+#print(".")
